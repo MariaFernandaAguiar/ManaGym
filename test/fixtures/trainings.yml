@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_training: MyString
+  serie_training: 1
+  repeticoes: 1
+
+two:
+  type_training: MyString
+  serie_training: 1
+  repeticoes: 1

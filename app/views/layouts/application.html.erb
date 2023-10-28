@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="bg-slate-400">
   <head>
     <title>Managym</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -11,9 +11,11 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+  <body class="flex flex-col overflow-x-hidden bg-slate-200">
+    <%= render "shared/header/header", class:"fixed" %>   
+  
+    <div class="flex mt-32">
       <%= yield %>
-    </main>
+    </div>
   </body>
 </html>

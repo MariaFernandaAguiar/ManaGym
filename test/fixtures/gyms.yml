@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome_gym: MyString
+  cnpj_gym: MyString
+  quan_student: 1
+  endereco_gym: MyString
+
+two:
+  nome_gym: MyString
+  cnpj_gym: MyString
+  quan_student: 1
+  endereco_gym: MyString
